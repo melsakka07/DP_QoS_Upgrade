@@ -1,0 +1,29 @@
+# Subscriber data files
+sub-list.txt
+*sub-list*.txt
+*subscriber*.csv
+
+# Output directories and their contents
+output/
+out-cmp/
+
+# Specific patterns for subscriber data files
+*_sub_*.csv
+*_optgprs_*.csv
+*_sub-list-comp.txt
+
+# Backup files that might contain subscriber data
+*.bak
+*.old
+*-old.*
+
+# Temporary files
+*.tmp
+*~
+
+# IDE and system files
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store 
